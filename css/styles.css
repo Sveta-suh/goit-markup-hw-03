@@ -19,6 +19,10 @@ a {
         text-decoration: none;
 }
 
+img {
+        display: block
+}
+
 .visually-hidden {
         position: absolute;
         width: 1px;
@@ -30,6 +34,7 @@ a {
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
+        margin-bottom: 8px;
 }
 .logo {
         font-family: "Raleway", sans-serif;
@@ -119,14 +124,14 @@ color: #404bbf;
 
 .hero {
         background-color: #2e2f42;
-        padding: 188px ;
+        padding: 188px 0 ;
         display: flex;
                 align-items: center;
                 
 }
 
 .padi {
-        padding: 120px;
+        padding: 120px 0;
 }
 
 .hero-title {
@@ -151,6 +156,9 @@ color: #404bbf;
                 border-radius: 4px;
                 display: block;
                 margin: 48px auto 0;
+                min-width: 169px;
+                height: 56px;
+                border: none;
 
 }
 
@@ -201,26 +209,48 @@ color: #434455;
         
 }
 
+.text-title {
+        margin-bottom: 8px;
+        text-align: center;
+}
+
 .cards-list {
         display: flex;
         gap: 24px;
 }
 
-.cards-item {
-        background-color: #FFFFFF
-        width: calc((100% - 72px) / 4);
+.cards-profession {
+        text-align: center;
 }
 
+.cards-item {
+        background-color: #FFFFFF;
+        width: calc((100% - 72px) / 4);
+        border-radius: 0 0 4px 4px;
+        padding: 32px 0;
+        background: #fff;
+}
+
+.portfolio-title {
+        margin-bottom: 72px;
+}
 .portfolio-list {
         display: flex;
         flex-wrap: wrap;
         gap: 24px;
+        row-gap: 48px;
 }
 
-.portfolio-item {
-        
+.sectfour {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
+
 }
 
+.portfolio-subtitle {
+        margin-bottom: 8px;
+}
 .about {
         background-color: #2e2f42;
 }
