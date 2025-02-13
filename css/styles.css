@@ -209,12 +209,15 @@ color: #434455;
 }
 
 .cardclass {
-padding: 32px 0
+        margin-bottom: 72px;
+padding: 32px 0;
 }
 .cards {
         background-color: #F4F4FD;
         
 }
+
+
 
 .text-title {
         margin-bottom: 8px;
@@ -242,6 +245,10 @@ padding: 32px 0
         border-radius: 0 0 4px 4px;
         padding: 32px 0;
         background: #fff;
+} 
+
+.punctone {
+        width: calc((100% - 48px) / 3);
 }
 
 .portfolio-title {
@@ -259,11 +266,13 @@ padding: 32px 0
 }
 
 .sectfour {
-        padding: 32px 16px;
-                border: 1px solid #e7e9fc;
                 border-top: none;
 }
 
+.portf {
+        padding: 32px 16px;
+                border: 1px solid #e7e9fc;
+}
 .portfolio-subtitle {
         margin-bottom: 8px;
 }
