@@ -49,14 +49,14 @@ img {
         margin-right: 76px;
 }
 
-.conteiner {
+.container {
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
 }
 
-.header-conteiner {
+.header-container {
         display: flex;
         align-items: center;
 }
